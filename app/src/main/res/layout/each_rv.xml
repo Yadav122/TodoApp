@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="9dp"
+
+
+    android:background="@drawable/rv">
+
+    <TextView
+        android:id="@+id/tittleRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Title"
+        android:textColor="#333e57"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dispRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="my name is harsh kumar "
+        android:textColor="#333e57"
+        android:typeface="monospace"
+
+        android:textSize="20sp"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="@+id/tittleRv"
+        app:layout_constraintTop_toBottomOf="@+id/tittleRv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
